@@ -1,0 +1,868 @@
+a:hover{
+  text-decoration: none;
+}
+body {
+  background-color: #F4F4F4;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 30px;
+background-color: white;
+height: 60px;
+-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2); -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2); box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.1);
+width:100%; position:fixed; top:0; left:0; height:60px; box-sizing:border-box; font-size:15px; z-index:2; background-color:white
+}
+.shadow { -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2); -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2); box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.1); }
+
+.button { padding:4px 12px 6px 12px; border-radius:4px; cursor:pointer; border:1px solid #cddbee; box-sizing: border-box; background-color:white;  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2); -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2); box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.1); }
+a:hover { color:black; }
+.header { width:100%; position:fixed; top:0; left:0; height:60px; box-sizing:border-box; font-size:18px; z-index:2; background-color:white }
+.item { margin:30px; padding:20px; background-color:white; border-radius:8px; display:inline-block; width:280px; position:relative;}
+
+.nav > li > a,
+.navbar-brand {
+	padding: 15px 12px;
+}
+.navbar-brand a {
+
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-left: 80px;
+
+}
+
+.navbar-brand {
+	font-size: 1em;
+
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+    background-color: #3498db;
+}
+
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+.form-control {
+	position: relative;
+}
+
+.account { margin-right: 100px;}
+.account .info { margin-bottom: 30px;font-family: 'Open Sans', sans-serif; }
+.account .options a { display: block; margin-top: 5px; font-family: 'Ubuntu', sans-serif;}
+
+tr td:first-child{
+  font-weight: bold;
+}
+
+.settings {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 10px #CCC;
+  box-shadow: 0 3px 4px #CCC;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.settings > h3 {
+  margin-bottom: 20px;
+
+}
+.settings .table td:first-child {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.settings .table td:last-child {
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+}
+
+.settings .btn {
+  width: 100px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.account {
+  padding-top: 20px;
+}
+
+.account .options {
+  padding-left: 20px;
+}
+
+
+.account .options a {
+  padding-bottom: 5px;
+  color: #666;
+}
+
+
+  .list-item{
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 4px #CCC;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    padding: 30px 40px;
+  }
+  .list .list-heading {
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 4px #CCC;
+    padding-left: 30px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: 170px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #666;
+    border-left: 3px solid #666;
+    font-family: 'Baloo Tamma', cursive;
+
+
+  }
+  .list .list-item .image img {
+    max-height: 80px;
+    padding-bottom: 20px;
+  }
+
+.addresses-heading .top {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 10px #CCC;
+  box-shadow: 0 3px 4px #CCC;
+  padding-left: 30px;
+  padding-bottom:10px;
+  padding-top: 10px;
+  width: 260px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #666;
+  border-left: 3px solid #666;
+  font-family: 'Baloo Tamma', cursive;
+  float: left;
+}
+.addresses-heading .address-new {
+  float: right;
+  font-family: 'Baloo Tamma', cursive;
+
+}
+
+
+
+.section .address,
+.section .addresses,
+.products .track .one,
+.cpanel-order .order-user-info
+ {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 10px #CCC;
+  box-shadow: 0 3px 4px #CCC;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  padding: 30px 40px;
+  padding-bottom: 47px;
+
+}
+
+ .address:hover {
+  border-left: 2px solid #666;
+}
+
+.section  .address span {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+.section .address .address-controller {
+
+  float:right;
+  font-family: 'Ubuntu', sans-serif;
+  padding-right: 5px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+
+}
+
+.section .address .address-controller a:hover {
+  color: #666;
+  font-weight: normal;
+}
+.account-orders .top{
+
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 4px #CCC;
+    padding-left: 30px;
+    padding-bottom:10px;
+    padding-top: 10px;
+    width: 260px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #666;
+    border-left: 3px solid #666;
+    font-family: 'Baloo Tamma', cursive;
+}
+.account-orders .orders {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 10px #CCC;
+  box-shadow: 0 3px 4px #ccc;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  padding: 30px 40px;
+  padding-bottom: 47px;
+
+}
+
+.account-orders .orders .unit {
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.account-orders .orders .unit {
+  margin-bottom: 10px;
+}
+.account-orders .orders .order-item .image img {
+  max-width: 80px;
+  padding-bottom: 15px;
+}
+
+.account-orders .orders .order-item span {
+  color: #C9182B;
+  font-weight: bold;
+  display: block;
+  border: 1px solid #B23256;
+  width: 120px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+}
+.account-orders .orders .order-item {
+  border-left: 3px solid #666;
+padding-left: 20px;
+margin-top: 20px;
+color:  #006fcc;
+
+}
+.account-orders .orders .order-item a:hover {
+  color: #718CA1;
+}
+
+
+
+hr {
+  border-width: 3px
+}
+.container {
+  margin-top: 100px;
+}
+
+.new-cat {
+  margin-right: 50px;
+}
+
+.new-cat .submit {
+  margin-top: 0px;
+  width: 70px;
+}
+
+.catigories {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 6px #CCC;
+  box-shadow: 0 3px 10px #CCC;
+  padding: 15px;
+  margin-right: 20px;
+  border-left: 3px solid #46b8da;
+
+}
+
+
+th {
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.products .track > h5,
+.products .add >h5
+ {
+
+  margin-bottom: 30px;
+  border: 2px solid #1AD7DB;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  color: #2B4450;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: white;
+  font-weight: bold;
+}
+.products .add {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 6px #CCC;
+  box-shadow: 0 3px 10px #CCC;
+  padding: 15px;
+  border-left: 3px solid #46b8da;
+  margin-left: 12px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.one .title {
+  margin-bottom: 20px;
+}
+  .one .title > img {
+  padding-left: 5px;
+  max-height: 50px;
+
+}
+
+.unit  a, .unit  span {
+  padding: 5px 5px;
+
+}
+.product .photo {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 6px #CCC;
+  box-shadow: 0 3px 10px #CCC;
+  border-left: 3px solid #46b8da;
+}
+
+.single-product .product {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 6px #CCC;
+  box-shadow: 0 3px 10px #CCC;
+  padding: 15px;
+  border-left: 3px solid #46b8da;
+  padding-left: 40px;
+  padding-right: 30px;
+
+}
+
+.single-product .product > h3 {
+  background-color: #f1f0f0;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 6px #CCC;
+  box-shadow: 0 1px 5px #CCC;
+border-right: 3px solid #46b8da;
+}
+
+.single-product .product img {
+  margin-top: 30px;
+}
+
+  .single-product .product .info {
+  margin-bottom: 30px;
+  border: 2px solid #1AD7DB;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  color: #2B4450;
+}
+
+.single-product .controller {
+  margin-top: 50px;
+  padding-left: 30px;
+
+}
+
+.single-product .controller .link {
+  padding:4px 12px 6px 12px;
+  border-radius:4px;
+  cursor:pointer;
+  border:1px solid #cddbee;
+  box-sizing: border-box;
+  background-color:#9BDF46;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2);
+   box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.1);
+   margin-left: 20px;
+   display: block;
+   margin-bottom: 10px;
+   width: 100px;
+   text-align: center;
+   color: white;
+   font-weight: bolder;
+}
+
+.product-form-edit {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 6px #CCC;
+  box-shadow: 0 3px 10px #CCC;
+  padding: 15px;
+  border-left: 3px solid white;
+  padding-left: 40px;
+  padding-right: 30px;
+
+}
+
+.home .block {
+  background-color: white;
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.home .block:first-child {
+  margin-left: 140px;
+}
+
+.home .block image {
+  background-color: red
+}
+.home .block span {
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-left: 80px;
+}
+a {
+    color: #006fcc;
+    line-height: inherit;
+}
+
+/* Start Main Rulez */
+
+body {
+	background-color: #F4F4F4;
+	font-size: 16px;
+	height: 3000px;
+}
+
+h1 {
+	font-size: 55px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #666;
+}
+
+.input-container {
+	position: relative;
+}
+
+.asterisk {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: #D20707;
+}
+
+.main-form .asterisk {
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #D20707;
+}
+
+.nice-message {
+	padding: 10px;
+	background-color: #FFF;
+	margin: 10px 0;
+	border-left: 5px solid #080;
+}
+
+/* End Main Rulez */
+
+/* Start Bootstrap Edits */
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav > li > a,
+.navbar-brand {
+	padding: 15px 12px;
+}
+
+.navbar-brand {
+	font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+    background-color: #3498db;
+}
+
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+	color: #FFF;
+	padding: 10px 15px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+
+.form-control {
+	position: relative;
+}
+
+/* End Bootstrap Edits */
+
+/* Start Header */
+
+.upper-bar {
+	padding: 10px;
+	background-color: #FFF
+}
+
+.my-image {
+	width: 32px;
+	height: 32px;
+}
+
+/* End Header */
+
+/* Start Login Page */
+
+.login-page form,
+.the-errors {
+	max-width: 380px;
+	margin: auto;
+}
+
+.login-page form input {
+	margin-bottom: 10px;
+}
+
+.login-page [data-class="login"].selected {
+	color: #337AB7;
+}
+
+.login-page [data-class="signup"].selected {
+	color: #5cb85c;
+}
+
+.login-page h1 {
+	color: #C0C0C0;
+}
+
+.login-page h1 span {
+	cursor: pointer;
+}
+
+.login-page .signup {
+	display: none;
+}
+
+.the-errors .msg {
+    padding: 10px;
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 8px;
+    border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #919191;
+}
+
+.the-errors .error {
+    border-left: 5px solid #cd6858
+}
+
+/* End Login Page */
+
+/* Start Categories Page */
+
+.item-box {
+	position: relative;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.item-box .price-tag {
+    background-color: #189BFA;
+    padding: 2px 10px;
+    position: absolute;
+    left: 0;
+    top: 130px;
+    font-weight: bold;
+    color: #FFF;
+
+}
+
+.item-box .approve-status {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #b85a5a;
+    color: #FFF;
+    padding: 3px 5px;
+}
+
+.item-box .caption p {
+	height: 44px;
+	max-height: 44px;
+}
+
+/* End Categories Page */
+
+/* Start Profile Page */
+
+.information {
+	margin-top: 20px
+}
+
+.information ul {
+	padding: 0;
+	margin: 0;
+}
+
+.information ul li {
+	padding: 10px;
+}
+
+.information ul li:nth-child(odd) {
+	background-color: #EEE;
+}
+
+.information ul li span {
+	display: inline-block;
+	width: 120px;
+}
+
+.thumbnail .date {
+	text-align: right;
+	font-size: 13px;
+	color: #AAA;
+	font-weight: bold;
+}
+
+.information .btn {
+	margin-top: 10px;
+}
+
+/* End Profile Page */
+
+/* Start Show Item Page */
+
+.item-info h2 {
+	padding: 10px;
+	margin: 0;
+}
+
+.item-info p {
+	padding: 10px;
+}
+
+.item-info ul li {
+	padding: 10px;
+}
+
+.item-info ul li:nth-child(odd) {
+	background-color: #e8e8e8;
+}
+
+.item-info ul li span {
+	display: inline-block;
+	width: 120px;
+}
+
+
+/* End Show Item Page */
+
+/* Start Our Custom */
+
+.custom-hr {
+	border-top: 1px solid #c9c9c9;
+}
+
+/* End Our Custom */
+
+a {
+  cursor: pointer;
+
+}
+
+.item-b .item-bb
+{
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 6px #CCC;
+  box-shadow: 0 3px 10px #CCC;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 30px;
+  margin-right: 20px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.item-b img {
+  max-height: 400px;
+}
+
+.item-b .item-cont {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px #CCC;
+  -moz-box-shadow: 0 3px 6px #CCC;
+  box-shadow: 0 3px 10px #CCC;
+  padding: 15px;
+  border-left: 3px solid #46b8da;
+  padding-left: 40px;
+  padding-right: 30px;
+
+}
+
+.item-b .item-bb  h4 {
+
+  color: #008BFF;
+ font-size: 30px;
+ font-weight: 700;
+ font-family: monospace;
+ line-height: 1.3;
+
+}
+
+.item-b .item-bb span {
+  font-weight: bolder;
+  display: inline-block;
+}
+
+.new {
+  padding:4px 12px 6px 12px;
+  border-radius:4px;
+  cursor:pointer;
+  border:1px solid #cddbee;
+  box-sizing: border-box;
+  background-color:#9BDF46;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2);
+   box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.1);
+   margin-left: 20px;
+   display: block;
+   margin-bottom: 10px;
+   text-align: center;
+   color: white;
+   font-weight: bolder;
+
+}
+
+
+
+  .checkout .info,
+  .checkout .prod,
+  .checkout-address-edit .fm,
+  .orders-block .tbl {
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 6px #CCC;
+    box-shadow: 0 3px 10px #CCC;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+  }
+  .checkout
+  a {
+    margin-top: 20px;
+    width: 100px;
+    font-weight: 700;
+  }
+
+.checkout .info h3,
+.checkout .prod h3 {
+  font-weight: 600;
+  padding-right: 20px;
+  font-family: monospace;
+}
+
+  .checkout .info {
+    font-family: monospace;
+  }
+
+  .checkout .prod img {
+    max-height: 80px;
+
+  }
+
+.checkout .product span {
+
+  font-family: sans-serif;
+}
+
+.checkout .product .bottom {
+  margin-bottom: 20px;
+}
+
+
+    .full {
+    width: 100%;
+}
+
+.orders-block .tbl {
+
+}
+.form-control {
+  border-radius: 0;
+}
+
+.btn-group-xs>.btn, .btn-xs {
+  border-radius: 0;
+}
+
+/* total */
+
+.total {
+font-family: "Ubuntu";
+}
+
