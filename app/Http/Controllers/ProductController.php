@@ -63,7 +63,7 @@ class ProductController extends Controller
 
     public function postNewProduct(Request $request)
     {
-/*
+
       $this->validate($request, [
         'catigory_id' => 'required',
         'price'       => 'required|numeric',  // number
@@ -76,7 +76,7 @@ class ProductController extends Controller
         'brand'       => 'required|numeric', // number
         'image'       => 'image|mimes:jpg,png'
       ]);
-*/
+
       // Manage Required photo
       $photo      = $request->file('image');
       $photoName  = time() . $photo->getClientOriginalName();

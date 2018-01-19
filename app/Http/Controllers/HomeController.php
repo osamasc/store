@@ -14,7 +14,7 @@ use App\Product;
 
 use App\Catigory;
 
-use App\Cartitem;
+use App\CartItem;
 
 use App\Cart;
 
